@@ -1,0 +1,697 @@
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    line-height:24px;
+}
+section{padding:80px 0px;}
+
+*{margin:0px; padding:0px;}
+
+.container{
+    width:1140px;
+    display:block;
+    margin:auto;
+}
+
+.topbar {
+    background: #2D0B0B;
+}
+.top_bar_wrapper {
+    overflow: hidden;
+}
+
+marquee {
+    color: white;
+    margin:5px;
+}
+
+.Ptop_bar_wrapper {
+    overflow: hidden;
+}
+.main_logo_box {
+    width: 110px;
+    margin: 5px;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+.main_manu_box {
+    float: right;
+    margin:40px 0px;
+}
+
+ul.menu_name {
+    list-style: none;
+}
+ul.menu_name li {
+    float: left;
+    margin: 10px;
+}
+ul.menu_name li a {
+    text-transform: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px;
+    transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -ms-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+ul.menu_name li a:hover {
+    color:rgb(243, 168, 30);
+}
+
+
+
+/* banner section */
+
+#mother_banner{
+    background:url("Banner photo/banner-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    margin: -126px 0px !important;
+}
+.banner_wrapper {
+    overflow: hidden;
+}
+.banner_wrapper h1 {
+    margin-top: 120px;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner_wrapper h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+h2.second {margin: 65px 0px 35px;}
+.orderBtn {
+    text-align: center;
+    margin: 50px 0px;
+    margin-bottom:70px;
+}
+
+.orderBtn button a {
+    color: white;
+    background: #F08D1A;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.orderBtn button {
+    outline: none;
+    border: none;
+}
+
+.orderBtn button a:hover{
+    background:rgb(180, 124, 3);
+}
+
+.orderBtn button a:active {
+    background:rgb(255, 255, 255);
+}
+
+
+
+/*About us */
+
+#About_us{
+    background-color: #F08D1A;
+    margin-top: 126px;
+}
+.AboutUswrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.photo_about {
+    width: 500px;
+    float: left;
+    position: absolute;
+    left: 75px;
+    top: 50px;
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+.info_meta {
+    background: #790400;
+    width: 560px;
+    float: right;
+    z-index: 10;
+    position: relative;
+}
+
+.infoWrapper {
+    overflow: hidden;
+    padding: 55px;
+    color: white;
+    position:relative;
+    z-index: 99;
+}
+
+.infoWrapper h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    color: #F08D1A;
+}
+.infoWrapper p {
+    text-align: center;
+    line-height: 1.6;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.infoWrapper::before {
+    content: url("frame/1.png");
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    
+}
+.infoWrapper::after {
+    content: url("frame/2.png");
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    
+}
+
+.bottom_design {
+    position: relative;
+}
+.bottom_design::before {
+    content: url("frame/3.png");
+    position: absolute;
+    left: -25px;
+    bottom: -25px;
+}
+.bottom_design::after {
+    content: url("frame/4.png");
+    position: absolute;
+    right: -25px;
+    bottom: -25px;   
+}
+
+
+
+
+/* menu section start */
+
+
+#special_menu{
+    background:url("food & others  photo/restaurant-menu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.menuWrapper {
+    overflow: hidden;
+}
+.menu_title {
+    text-align: center;
+}
+
+.titlehead h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+.title_child {position: relative;width: 300px;margin: auto;}
+
+.title_child h3 {
+    color: red;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+    font-size: 22px;
+}
+.title_child::before {
+    content: "";
+    border-top: 2px solid #fff;
+    width: 55px;
+    position: absolute;
+    left: -55px;
+    top: 12px;
+}
+
+.title_child::after {
+    content: "";
+    border-top: 2px solid #fff;
+    width: 55px;
+    position: absolute;
+    right: -55px;
+    top: 12px;
+}
+.single_box_Wrapper {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.single_box {
+    width: 265px;
+    float: left;
+    margin: 10px;
+}
+.box_meta {
+    color: white;
+    display: block;
+}
+
+.box_meta h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.box_meta h2::before {
+    content: "";
+    border-bottom: 2px solid red;
+    width: 45px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -17px;
+}
+
+.box_meta span {
+    text-align: center;
+    display: block;
+}
+.download_btn a {color: white;text-transform: uppercase;text-decoration: none;font-size: 17px;}
+
+.download_btn {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    border: 6px groove red;
+    padding: 10px;
+    margin-top: 40px;
+    transition:.3s;
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+}
+.download_btn:hover {
+    background:red;
+    cursor: pointer;
+    
+}
+
+/*time section start*/
+
+
+section#time_chart {
+    background: url("frame/border.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #3A1010;
+}
+.time_chart_Wrapper {
+    overflow: hidden;
+}
+
+.time_title h2 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    line-height: normal;
+    margin: 30px 0px;
+}
+.time_child {
+    position: relative;
+    width: 400px;
+    margin: auto;
+}
+
+.time_child span {color: red;text-align: center;display: block;font-size: 21px;letter-spacing: 2px;margin: 35px;}
+
+.time_title h3 {
+    color: #E68A1B;
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.footerline span {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 45px;
+    margin-top: 80px;
+}
+.time_child::before {
+    content: "";
+    position: absolute;
+    border: 1px solid white;
+    width: 70px;
+    top: 11px;
+    left: -40px;
+}
+.time_child::after {
+    content: "";
+    position: absolute;
+    border: 1px solid white;
+    width: 70px;top: 11px;
+    right: -40px;
+}
+
+
+
+
+
+/*reservation section start*/
+
+section#reservation {
+    background: #E68A1B;
+    padding:0;
+}
+
+.formWrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+form.main_form {
+    background: #790400;
+    width: 350px;
+    padding: 60px 35px;
+}
+.all_element_Wrapper_into_form span {
+    color: white;
+}
+
+.all_element_Wrapper_into_form h1 {
+    color: white;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+.inputBox span input {
+    background: transparent;
+    padding: 10px;
+    width: 94%;
+    margin-bottom: 10px;
+    outline: none;
+    color: white;
+}
+.inputBox span input::placeholder{
+    color:white;
+}
+.inputBox span textarea {
+    width: 95%;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    padding: 9px;
+    outline: none;
+    font-family: arial;
+}
+.inputBox span textarea::placeholder{
+    color:white;
+}
+.about_form_text p {
+    font-size: 11px;
+    line-height: 1.5;
+    color: #E68A1B;
+    font-family: arial;
+    margin: 10px 0px;
+    letter-spacing: 0.1px;
+}
+.agrrementBtn span {
+    font-size: 13px;
+}
+
+.agrrementBtn {
+    margin: 10px 0px;
+}
+
+.book_a_table input {
+    margin: auto;
+    display: block;
+    background: #E68A1B;
+    border: none;
+    outline: none;
+    padding: 14px;
+    width: 100%;
+    color: #790400;
+    font-weight: 800;
+    font-family: 'Oswald';
+    font-size: 17px;
+    transition:.5s;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+}
+.book_a_table input:hover {
+    background:rgb(255, 253, 253);
+    cursor:pointer;
+}
+
+.formWrapper::before {content: url("frame/1.png");position: absolute;top: 10px;left: 10px;}
+.formWrapper::after {content: url("frame/2.png");position: absolute;top: 10px;left: 335px;}
+
+
+.all_element_Wrapper_into_form {
+    position: relative;
+}
+
+.all_element_Wrapper_into_form::after {content: url("frame/3.png");position: absolute;bottom: -54px;left: -25px;}
+.all_element_Wrapper_into_form::before {content: url("frame/4.png");position: absolute;bottom: -54px;left: 302px;}
+
+
+
+
+/*footer section*/
+
+.footerContainer{
+    width: 1640px;
+    display:block;
+    margin:auto;
+}
+
+footer#contact {
+    padding: 80px 0px;
+    background: #3A1010;
+}
+.singaleBoxWarapper {
+    overflow: hidden;
+}
+
+.singleBox {
+    overflow: hidden;
+    width: 265px;
+    float: left;
+    margin: 0px 52px;
+}
+.miftaPic {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.paidPhoto {
+    width: 70%;
+    margin: 30px 0px;
+}
+.metaTitle {
+    color: white;
+    font-size: 18px;
+    line-height: 3;
+    position: relative;
+}
+
+.metaTitle::before {content: "";border: 2px solid red;position: absolute;width: 60px;bottom: 0;}
+.metabody p {
+    color: #e68a1b;
+    margin: 25px 0px;
+}
+.timeline {
+    color: white;
+}
+.timeline div span:first-child {
+    float: left;
+}
+.timeline div span:nth-child(2) {
+    float: right;
+}
+.meta_info {
+    margin: 25px 0px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+}
+.meta_info div {
+    margin: 10px 0px;
+}
+
+.loca1 span i {
+    color: #fbc154;
+    margin-right: 30px;
+}
+.pho2 span i {
+    color: #fbc154;
+    margin-right: 34px;
+}.fa1 span i {
+    color: #3e6afa;
+    margin-right: 40px;
+}.trip1 span i {
+    color: #60f385;
+    margin-right: 26px;
+}
+
+
+
+
+
+
+
+
+
+/*photo animation */
+
+.myPhoto img {
+    width: 50%;
+    border: 10px groove #a54a0a;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+.my_photo_singlebox {
+    float: right;
+    width: 533px;
+}
+
+.myPhoto {position: relative;}
+
+.myPhoto::before {
+    content: "";
+    position: absolute;
+    background-image: url("designer DP/shape-2.png");
+    left: 0%;
+    width: 100%;
+    height: 108%;
+    background-size: 67%;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: dizzling 8s infinite;
+    transition: all 300ms ease;
+    animation-name:turag;
+    animation-direction:alternate;
+    z-index: 2;
+    opacity: .5;
+    
+}
+@keyframes turag {
+    from{ transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); }
+    to{ transform:rotate(15deg); -webkit-transform:rotate(15deg); -moz-transform:rotate(15deg); -ms-transform:rotate(15deg); -o-transform:rotate(15deg); }
+}
+
+
+.name span {
+    color: #ffb397;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*photo te hover effect ase ota*/
+
+.my_photo_info {
+    position: absolute;
+    background: #0000009e;
+    height: 270px;
+    width: 270px;
+    top: -290px;
+    left: 129px;
+    border-radius: 50%;
+    z-index: 3;
+    transition:.3s;
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+}
+.myPhoto:hover .my_photo_info{
+    top: 10px;
+}
+
+
+
+
+.allIcon {
+    text-align: center;
+}
+
+.allIcon span {
+    margin: 0px 8px;
+}
+
+.allIcon span a i {
+    color: white;
+    border: 2px solid #737373;
+    border-radius: 50%;
+    background: #274a2d78;
+    padding: 8px;
+    width: 15px;
+    height: 15px;
+    transition:.3s;
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+}
+.allIcon span a i:hover {
+    color:rgb(250, 249, 249);
+    background:rgba(199, 198, 198, 0.76);
+
+}
+
+
+
+
+
+
+/*photo animation ses */
+
+/*footer line*/
+
+.last_footerline {
+    background: #2b0202;
+    border-top: 1px solid wheat;
+    color: white;
+    padding:10px;
+}
+.leftSidefooter {
+    display: inline-block;
+    float:left;
+}
+.rightSidefooter {
+    text-align: right;
+    font-size: 12px;
+    
+}
+/*finished*/
